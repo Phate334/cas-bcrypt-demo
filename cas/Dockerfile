@@ -1,6 +1,5 @@
 FROM apereo/cas:v5.0.4
 
-# COPY ./src/ /cas-overlay/src/
 COPY ./pom.xml /cas-overlay/pom.xml
 
 RUN cd /etc/cas/ && \
